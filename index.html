@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html class="bg-white" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>busTicket</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/edit.css">
+   <!-- Tailwind customs -->
+   <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'btn-click': '#1DD100',
+          }
+        }
+      }
+    }
+  </script>
+
+</head>
+<body class="bg-white text " >
+     <section class="">
+        <div class="navbar bg-slate-100 ">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+              </div>
+              <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                <li><a>Item 1</a></li>
+                <li>
+                  <a>Parent</a>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </li>
+                <li><a>Item 3</a></li>
+              </ul>
+            </div>
+            <a class="btn btn-ghost  text-3xl text-black">Borak Poribahan</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li>
+                <details>
+                  <summary>Locations</summary>
+                  <ul class="p-2">
+                    <li><a>Submenu 1</a></li>
+                    <li><a>Submenu 2</a></li>
+                  </ul>
+                </details>
+              </li>
+              <li><a>Search</a></li>
+              <li><a>About</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <button class="btn bg-green-300 text-white">
+              Bus
+              <svg  class="h-6 w-6" fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#18cd4e" d="M224 0C348.8 0 448 35.2 448 80V96 416c0 17.7-14.3 32-32 32v32c0 17.7-14.3 32-32 32H352c-17.7 0-32-14.3-32-32V448H128v32c0 17.7-14.3 32-32 32H64c-17.7 0-32-14.3-32-32l0-32c-17.7 0-32-14.3-32-32V96 80C0 35.2 99.2 0 224 0zM64 128V256c0 17.7 14.3 32 32 32H352c17.7 0 32-14.3 32-32V128c0-17.7-14.3-32-32-32H96c-17.7 0-32 14.3-32 32zM80 400a32 32 0 1 0 0-64 32 32 0 1 0 0 64zm288 0a32 32 0 1 0 0-64 32 32 0 1 0 0 64z"/></svg>
+            </button>
+          </div>
+        </div>
+       </div>
+     </section>
+              
+    <!-- <section class="bg-no-repeat h-800 border-green-400 "style="background-image: url(images/banner.png) ;"> -->
+      <div class="bg-[url('images/banner.png')]  object-fill bg-no-repeat bg-cover bg-center object-cover space-y-6 py-[109px] h-[550px]  rounded-xl mt-3 " >
+        <div class="text-center mx-auto">
+          <p class="text-5xl text-whi font-medium text-black">End-to-End Travel with</p>
+          <p class="text-4xl text-lime-500 font-medium">Relax Paribahan</p>
+          <p>Relaxed journey with our high quality vehicles</p>
+          <button class="py-2 px-2 bg-btn-click rounded-md text-black">Buy P-Tickets</button>
+        </div>
+        
+     </div>
+    </section>
+     <br>
+    <!-- third part -->
+    <section class="">
+      <div class="">
+         <p class="text-center text-black text-5xl font-medium ">The Offers You Can Get</p>
+      </div>
+      <br>
+      <!-- 1st cou pon -->
+      <div  class="w-54">
+        <div class="flex w-full ">
+          <button class="grid h-20 flex-grow card text-black text-2xl bg-orange-400 rounded-box place-items-center">15% OFF <br> on your next purchase</button>
+          <div class="dividerdivider-horizontal">.</div>
+
+          <!-- 2nd coupon -->
+          <button class="grid h-20 flex-grow card text-black text-2xl bg-pink-400 rounded-box place-items-center">25% OFF<br> on your next purchase</button>
+        </div>
+
+      </div>
+      <br>
+       <div class="text-center mx-auto ">
+          
+          <button class="btn btn-outline btn-success">See more offers</button>
+       </div>
+      </section>
+      <!-- 4th part -->
+      <section class="my-7 bg-red-500 p-20 h-42">
+        <div class="flex">
+          <div>
+              <div class="bg-slate-300 flex flex space-x-14">
+                <p class="text-black font-extrabold text-xl">Paribahan</p>
+                <br>
+                <button class="btn btn-outline btn-success">8 seat left</button>
+              </div>
+            <div>
+               <p>Route</p>
+               <p>Departure</p>
+            </div>
+          </div>
+          <div></div>
+        </div>
+      </section>
+
+      <section class="my-7 p-80 bg-slate-400 flex space-x-52">
+        <div>
+          <div class="flex space-x-4 ...">
+            <div><p class="text-amber-400 text-2xl">A</p></div>
+            <button class="text-white btn btn-info">A1</button>
+            <button class="text-white btn btn-info">A2</button>
+            <div class="dividerdivider-horizontal">.</div>
+            <button class="text-white btn btn-info">A3</button>
+            <button class="text-white btn btn-info">A4</button>
+          </div>
+          <div class="my-3 flex space-x-4 ...">
+            <div><p class="text-amber-400 text-2xl">B</p></div>
+            <button class="text-white btn btn-info">B1</button>
+            <button class="text-white btn btn-info">B2</button>
+            <div class="dividerdivider-horizontal">.</div>
+            <button class="text-white btn btn-info">B3</button>
+            <button class="text-white btn btn-info">B4</button>
+          </div>
+        </div>
+        <div>
+            <div>
+              <h2 class="text-white text-3xl">Select Your sit</h2>
+            </div>
+            
+        </div>
+        
+      </section>
+</body>
+
+</html>
